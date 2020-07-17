@@ -22,6 +22,22 @@ console.log(woodResult);
 
 
 //brickCalculator
+function brickCalculator(z){
+    let result;
+    if(0 < a <= 10){
+        reseult = a * 15 * 1000;
+    }
+    else if(10 < a <=20){
+        var second = (a - 10) * 12 * 1000;
+        result = 15000 + second;
+    }
+    else{
+        result = 27000 + (a - 20) * 10 * 1000
+    }
+    return result;
+}
+
+
 //tinyFriend
 function tinyFriend(names){
     var youngest = names[0];
